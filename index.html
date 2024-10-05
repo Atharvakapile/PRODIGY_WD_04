@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern portfolio showcasing my web development skills and projects."
+    />
+    <title>Portfolio | Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- Home & About Me Section -->
+<section id="home" class="home">
+    <div class="container">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hello, I'm <span>Atharva Kapile</span></h1>
+                <p>I'm a full-stack developer and cybersecurity enthusiast. I love creating responsive and user-friendly web applications.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+            <div class="home-image">
+                <img src="athu.jpg" alt="Atharva Kapile" class="circular-image" />
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>Proficient in building responsive websites with a strong focus on design and user experience.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Experienced in creating dynamic, interactive web applications using vanilla JavaScript and frameworks.</p>
+            </div>
+            <div class="skill-card">
+                <h3>React</h3>
+                <p>Skilled in building complex UIs with React, using state management and reusable components.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Node.js & Express</h3>
+                <p>Understanding of backend technologies for building full-stack web applications.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="stopwatch.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A dynamic web application built using React and Node.js.</p>
+                <a href="https://atharvakapile.github.io/PRODIGY_WD_02/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="tic.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A fully responsive landing page with engaging UI/UX elements.</p>
+                <a href="https://atharvakapile.github.io/PRODIGY_WD_03/" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <div>
+      <h2>Contact Me</h2>
+      <section id="contact" class="contact">
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <script src="portfolio.js"></script>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Atharva Kapile. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
